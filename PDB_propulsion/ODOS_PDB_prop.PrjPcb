@@ -135,10 +135,14 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [GeneratedDocument1]
-DocumentPath=Project Outputs for ODOS_PDB_prop\ODOS_PDB_prop.nsx
+DocumentPath=Project Outputs for ODOS_PDB_prop\Design Rule Check - ODOS_PDB_prop_pcb.html
 DItemRevisionGUID=
 
 [GeneratedDocument2]
+DocumentPath=Project Outputs for ODOS_PDB_prop\ODOS_PDB_prop.nsx
+DItemRevisionGUID=
+
+[GeneratedDocument3]
 DocumentPath=Simulation\ODOS_PDB_prop.sdf
 DItemRevisionGUID=
 
