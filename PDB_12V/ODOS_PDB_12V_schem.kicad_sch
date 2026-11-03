@@ -411,27 +411,29 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "J0"
+				(at 15.24 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right bottom)
 				)
 			)
 			(property "Value" ""
-				(at 0 0 0)
+				(at 15.24 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_AMASS:AMASS_XT30UPB-M_1x02_P5.0mm_Vertical"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -464,7 +466,103 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*SHDR2W160P0X500_1X2_1020X520X1070P*"
+			(property "DATASHEET LINK" "https://www.tme.eu/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf"
+				(at 15.24 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "HEIGHT" "10.7mm"
+				(at 15.24 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "MANUFACTURER_NAME" "Amass"
+				(at 15.24 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "MANUFACTURER_PART_NUMBER" "XT30UPB-M"
+				(at 15.24 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "MOUSER PART NUMBER" ""
+				(at 15.24 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "MOUSER PRICE/STOCK" ""
+				(at 15.24 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "ARROW PART NUMBER" ""
+				(at 15.24 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "ARROW PRICE/STOCK" ""
+				(at 15.24 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "ki_fp_filters" "*XT30UPB-M*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2108,6 +2206,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 158.75) (xy 81.28 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23823286-4d2b-47e7-b7e4-e1dcc4359ef5")
+	)
+	(wire
+		(pts
 			(xy 99.06 190.5) (xy 88.9 190.5)
 		)
 		(stroke
@@ -2168,6 +2276,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 156.21) (xy 81.28 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a16f69-4e16-440b-9288-1121383d09f4")
+	)
+	(wire
+		(pts
 			(xy 76.2 179.07) (xy 81.28 179.07)
 		)
 		(stroke
@@ -2175,16 +2293,6 @@
 			(type default)
 		)
 		(uuid "71dfb868-5196-4ab5-b6ed-78efeb8728d8")
-	)
-	(wire
-		(pts
-			(xy 77.47 156.21) (xy 86.36 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b38d02-9de4-4f7b-978f-2e57037bf7f0")
 	)
 	(wire
 		(pts
@@ -2428,16 +2536,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 158.75) (xy 86.36 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe3df391-7c01-4a49-8be2-608b3246f773")
-	)
-	(wire
-		(pts
 			(xy 88.9 190.5) (xy 88.9 189.23)
 		)
 		(stroke
@@ -2547,7 +2645,7 @@
 		(uuid "a1bfcf62-ef3f-4764-acda-109a6bbd19c2")
 	)
 	(label "+12V"
-		(at 86.36 158.75 0)
+		(at 81.28 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2567,7 +2665,7 @@
 		(uuid "d3b928e0-d217-496c-8b7d-622da5ada633")
 	)
 	(label "GND"
-		(at 86.36 156.21 0)
+		(at 81.28 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3341,7 +3439,7 @@
 				)
 			)
 		)
-		(property "DATASHEET LINK" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "DATASHEET LINK" "https://www.digikey.com/en/products/detail/panasonic-industry/EEE-FN1E821UP/11656963?"
 			(at 68.072 172.466 0)
 			(hide yes)
 			(show_name no)
@@ -3353,7 +3451,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "HEIGHT" "0.55mm"
+		(property "HEIGHT" ""
 			(at 68.072 172.466 0)
 			(hide yes)
 			(show_name no)
@@ -3365,7 +3463,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_NAME" "KEMET"
+		(property "MANUFACTURER_NAME" "Panasonic Industry"
 			(at 68.072 172.466 0)
 			(hide yes)
 			(show_name no)
@@ -3377,7 +3475,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "C0402C471J5GACTU"
+		(property "MANUFACTURER_PART_NUMBER" "EEE-FN1E821UP"
 			(at 68.072 172.466 0)
 			(hide yes)
 			(show_name no)
@@ -3389,7 +3487,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MOUSER PART NUMBER" "80-C0402C471J5G"
+		(property "MOUSER PART NUMBER" ""
 			(at 68.072 172.466 0)
 			(hide yes)
 			(show_name no)
@@ -3401,7 +3499,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C471J5G"
+		(property "MOUSER PRICE/STOCK" ""
 			(at 68.072 172.466 0)
 			(hide yes)
 			(show_name no)
@@ -3413,7 +3511,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ARROW PART NUMBER" "C0402C471J5GACTU"
+		(property "ARROW PART NUMBER" ""
 			(at 68.072 172.466 0)
 			(hide yes)
 			(show_name no)
@@ -3425,7 +3523,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/c0402c471j5gactu/kemet-corporation"
+		(property "ARROW PRICE/STOCK" ""
 			(at 68.072 172.466 0)
 			(hide yes)
 			(show_name no)
@@ -3596,7 +3694,7 @@
 				)
 			)
 		)
-		(property "DATASHEET LINK" "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf"
+		(property "DATASHEET LINK" "https://www.digikey.com/en/products/detail/panasonic-industry/EEE-FN1E821UP/11656963?"
 			(at 101.092 186.436 0)
 			(hide yes)
 			(show_name no)
@@ -3608,7 +3706,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "HEIGHT" "0.55mm"
+		(property "HEIGHT" ""
 			(at 101.092 186.436 0)
 			(hide yes)
 			(show_name no)
@@ -3620,7 +3718,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_NAME" "KEMET"
+		(property "MANUFACTURER_NAME" "Panasonic Industry"
 			(at 101.092 186.436 0)
 			(hide yes)
 			(show_name no)
@@ -3632,7 +3730,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MANUFACTURER_PART_NUMBER" "C0402C471J5GACTU"
+		(property "MANUFACTURER_PART_NUMBER" "EEE-FN1E821UP"
 			(at 101.092 186.436 0)
 			(hide yes)
 			(show_name no)
@@ -3644,7 +3742,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MOUSER PART NUMBER" "80-C0402C471J5G"
+		(property "MOUSER PART NUMBER" ""
 			(at 101.092 186.436 0)
 			(hide yes)
 			(show_name no)
@@ -3656,7 +3754,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "MOUSER PRICE/STOCK" "https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0402C471J5G"
+		(property "MOUSER PRICE/STOCK" ""
 			(at 101.092 186.436 0)
 			(hide yes)
 			(show_name no)
@@ -3668,7 +3766,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ARROW PART NUMBER" "C0402C471J5GACTU"
+		(property "ARROW PART NUMBER" ""
 			(at 101.092 186.436 0)
 			(hide yes)
 			(show_name no)
@@ -3680,7 +3778,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "ARROW PRICE/STOCK" "https://www.arrow.com/en/products/c0402c471j5gactu/kemet-corporation"
+		(property "ARROW PRICE/STOCK" ""
 			(at 101.092 186.436 0)
 			(hide yes)
 			(show_name no)
