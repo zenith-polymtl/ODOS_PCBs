@@ -1,6 +1,7 @@
 # ===== Altium =====
 
 History/
+.hostory/
 __Previews/
 Project Logs for *
 Project Outputs for *
@@ -18,6 +19,11 @@ Outputs/
 *.OutJob
 *.csv
 *.PrjPcbStructure
+*.html
+*.drc
+*.sdf
+*.simcfg
+*.kicad-prl
 
 # Fichiers auto générés
 *.~*
